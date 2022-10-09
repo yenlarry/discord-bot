@@ -1,1 +1,2 @@
 discord.py[voice]>=1.7.3
+googletrans==4.0.0-rc1
