@@ -1,1 +1,1 @@
-worker:app.py
+worker: node app.py
