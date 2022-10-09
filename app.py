@@ -18,7 +18,7 @@ intents.typing = False
 intents.presences = False
 
 # 取得 Discord client 物件才能操作
-client = discord.Client()
+client = discord.Client(intents=discord.Intents.default())
 reply ={'dc':'幹嘛'}
 # 調用 event 函式庫
 @client.event
