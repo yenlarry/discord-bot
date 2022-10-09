@@ -1,1 +1,1 @@
-worker: node app.py
+discordbot: python app.py
