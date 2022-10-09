@@ -16,7 +16,7 @@ import discord
 intents = discord.Intents.default()
 intents.typing = False
 intents.presences = False
-TOKEN = os.environ['MTAyODI0ODY4MTcwODc4NTc1OA.GrhzxF.AOt24kU-A1ZusZpZULcLOkFCvhjzIxjBPt3hh0']
+TOKEN = os.environ['TOKEN']
 # 取得 Discord client 物件才能操作
 client = discord.Client(intents=discord.Intents.default())
 reply ={'dc':'幹嘛'}
