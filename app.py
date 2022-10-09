@@ -67,4 +67,4 @@ async def on_message(message):
   print(reply)
     
          
-client.run(discord_TOKEN)
+client.run(TOKEN)
